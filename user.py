@@ -28,11 +28,11 @@ u3 = User()
 print(u1)
 print(u2)
 print(u3)
-print("Total user", User.get_count)
+print("Total user", User.get_count())
 del u2
 del u3
 u2 = User()
 u3 = User()
 print(u2)
 print(u3)
-print("Total user", User.get_count)
+print("Total user", User.get_count())
